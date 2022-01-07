@@ -40,7 +40,7 @@ class Blackjack:
         while self.dealer.check_score() < 17:
             if self.dealer.hit() == 1:
                 self.dealer.show()
-                print("Dealer busted. Congrats!")
+                print("Dealer busted. Congrats on winning!!!")
                 return 1
             self.dealer.show()
 
